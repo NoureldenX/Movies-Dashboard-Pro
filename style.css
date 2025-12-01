@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f0f23, #1a1a2e);
+    color: #eee;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-box {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#searchInput {
+    padding: 15px 20px;
+    width: 70%;
+    max-width: 500px;
+    border: none;
+    Border-radius: 50px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+#searchBtn {
+    padding: 15px 25px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+#searchBtn:hover {
+    background: #ff5252;
+    transform: scale(1.05);
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.movie-card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 1.5rem;
+}
+
+.movie-info h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.rating {
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.loading {
+    font-size: 1.5rem;
+    margin: 3rem;
+    color: #4ecdc4;
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 1.3rem;
+    margin: 3rem;
+}
+
+.hidden { display: none; }
+@media (max-width: 768px) {
+    h1 { font-size: 2.5rem; }
+.search-box { flex-direction: column; }
+#searchInput { width: 100%; }
+}
