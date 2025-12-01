@@ -19,7 +19,7 @@
 - TMDB API (Trending + Search)
 
 ### Live Demo
-🔗 https://noureldenx.github.io/movie-night-ar
+🔗 https://noureldenx.github.io/Movies-Dashboard-Pro/
 
 ### لقطات من التطبيق
 <img width="1900" height="1079" alt="image" src="https://github.com/user-attachments/assets/76ee4ce3-174e-4fd2-8a33-55e2b8ebb0a9" />
