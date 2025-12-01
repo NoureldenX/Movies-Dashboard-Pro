@@ -22,8 +22,8 @@
 🔗 https://noureldenx.github.io/movie-night-ar
 
 ### لقطات من التطبيق
-![Movie Night Preview](<img width="1900" height="1079" alt="image" src="https://github.com/user-attachments/assets/2d20fe7a-cb5f-48ba-9c2a-bc6a5f7ba174" />
-)
+<img width="1900" height="1079" alt="image" src="https://github.com/user-attachments/assets/76ee4ce3-174e-4fd2-8a33-55e2b8ebb0a9" />
+
 (ارفع صورة سكرين شوت باسم preview.jpg في الريبو)
 
 ### كيف تشغّله محليًا
